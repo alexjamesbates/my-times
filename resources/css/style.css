@@ -68,6 +68,30 @@ a {
   color: black;
 }
 
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+}
+
 .narrative {
   margin-top: 16px;
 }
@@ -106,6 +130,7 @@ a {
   color: white;
   text-align: center;
   margin-top: 15px;
+  justify-content: center;
 }
 
 .lead-story.image-content {
@@ -114,6 +139,11 @@ a {
   text-align: left;
   margin-top: 0px;
   width: 630px;
+
+}
+
+.lead-story.image-content span {
+    margin-left: 20px;
 }
 
 .fall-cancelled.image-content {
