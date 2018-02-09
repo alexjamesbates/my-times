@@ -67,3 +67,35 @@ div {
 .column.small {
   width: 240px;
 }
+
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.lead-story.image-content {
+  background-image: url("../images/img-story-main.png");
+  font-size: 40px;
+  text-align: left;
+  margin-top: 0px;
+}
+
+.fall-cancelled.image-content {
+  background-image: url("../images/img-story-2.png");
+}
+
+.pop-culture.image-content {
+  background-image: url("../images/img-story-3.png");
+}
+
+.cat-ceo.image-content {
+  background-image: url("../images/img-story-1.png");
+}
